@@ -1,0 +1,31 @@
+#body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#header {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+#img {
+    max-width: 100%;
+    height: auto;
+}
+
+#p {
+    text-align: justify;
+}
+
+
+#about{
+    margin: 20px;
+}
+
+
+
+#featured-shoes {
+    margin-bottom: 20px;
+}
