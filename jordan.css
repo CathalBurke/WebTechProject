@@ -2,25 +2,31 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(5, 5, 5);
+   
 }
 
 header {
-    background-color: #ff0000;
+   
     color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#st{
+    background-color: #000000;
+    color: #ff0000;
     text-align: center;
     padding: 10px;
 }
 nav
 {
-    background-color: #ff0000;
+   
     color: #fff;
     text-align: center;
     padding: 10px;
 }
 footer 
 {
-    background-color: #ff0000;
+   
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -54,4 +60,22 @@ form{
 }
 h3{
     color: white;
+}
+#b1{
+    background-image: url(S78YADs.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-blend-mode: multiply;
+}
+#b2{
+    background-image: url(shoes-background-rscbol0phdtsucbf.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-blend-mode: multiply;
+}
+#b3{
+    background-image: url(S78YADs.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-blend-mode: multiply;
 }
