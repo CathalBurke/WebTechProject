@@ -2,6 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
    
 }
 
@@ -12,7 +13,7 @@ header {
     padding: 10px;
 }
 #st{
-    background-color: #000000;
+    
     color: #ff0000;
     text-align: center;
     padding: 10px;
@@ -45,21 +46,26 @@ nav a:hover {
 
 main {
     padding: 20px;
+ text-align: center;
 }
 
 h2 {
     color: #ffffff;
+    text-align: center;
 }
 
 p {
     color: #ffffff;
     line-height: 1.6;
+    text-align: center;
 }
 form{
     color:white;
+    
 }
 h3{
-    color: white;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 #b1{
     background-image: url(S78YADs.jpg);
@@ -68,7 +74,7 @@ h3{
     background-blend-mode: multiply;
 }
 #b2{
-    background-image: url(shoes-background-rscbol0phdtsucbf.jpg);
+    background-image: url(pngtree-orange-pattern-with-black-background-image_287352.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     background-blend-mode: multiply;
@@ -78,4 +84,13 @@ h3{
     background-size: cover;
     background-repeat:no-repeat;
     background-blend-mode: multiply;
+}
+img{
+    width: 50%;
+}
+#d{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border: 10px red;
 }

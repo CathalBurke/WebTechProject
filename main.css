@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+}
+
+section {
+    margin: 20px 0;
+    color: orange;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:orange;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+    background-color:orange;
+
+}
+#shoe{
+   
+
+}
+#matt{
+    
+}
