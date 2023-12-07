@@ -3,12 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: black;
+    
 }
 
 header {
     text-align: center;
     padding: 10px;
     background-color: orange;
+    text-align: center;
 }
 
 section {
@@ -20,17 +22,27 @@ footer {
     text-align: center;
     padding: 10px;
     background-color:orange;
+    text-align: center;
 }
 nav{
     text-align: center;
     padding: 10px;
     background-color:orange;
+    text-decoration: none;
+}
+h2{
+    color: orange;
+    text-align: center;
 
 }
-#shoe{
-   
+h3{
+    text-align: left;
+   color: orange;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: inherit;
 
 }
-#matt{
+#matt
+{
     
 }
