@@ -42,7 +42,9 @@ h3{
    font-style: inherit;
 
 }
-#matt
-{
-    
+#about{
+    max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center
 }
