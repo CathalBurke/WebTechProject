@@ -16,3 +16,10 @@
     height: auto;
 }
 
+#backround{
+    background-image: url();
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-blend-mode: multiply;
+}
+
