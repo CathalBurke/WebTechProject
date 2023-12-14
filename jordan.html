@@ -6,7 +6,13 @@
     <link rel="stylesheet" href="jordan.css" >
 </head>
 <body>
+
     <div id="b1">
+        <label for="nameInput">Enter your name:</label>
+    <input type="text" id="nameInput">
+    <button onclick="displayName()">Submit</button>
+
+    <p id="outputMessage"></p>
         <header>
             <h1>ATU SHOE</h1>
         </header>
@@ -30,6 +36,10 @@
         <section id="shoe">
            
                 <img src="im.jpg" alt="image cannot be found" width="450" height="300" id="e">>
+
+                <ul id="shoeList">
+                    <li class="shoeItem" data-name="Running Shoes" data-price="50">price - $50</li>
+                </ul>
           
             <p>SIZE:</p>
    
@@ -57,7 +67,10 @@
             <div id="d">
                 <img src="pngtree-air-jordans-shoes-come-in-red-and-black-picture-image_2656867.jpg" alt="image cannot be found" width="250" height="300"  id="imge">
             </div>
-           
+
+            <ul id="shoeList">
+                <li class="shoeItem" data-name="Casual Shoes" data-price="40">price - $40</li>
+            </ul>
                 <p>SIZE:</p>
     
             <form>
@@ -91,6 +104,16 @@
             <h3>Care & Material</h3>
          <p>  Leather Upper/Synthetic Sole</p>
 
+         <div id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems"></ul>
+            <p>Total: $<span id="totalPrice">0</span></p>
+        </div>
+
+
+
+
+
         <p>would you like to order?</p>
         <button type="button" onclick="alert('Ordered')">order !</button>
         <button type="button" onclick="alert('Cancelled')">cancel?</button>
@@ -110,8 +133,8 @@
 <div id="b3"> 
     <section id="contact">
     <footer>
-        &copy; 2023 Shoe Store. All rights reserved.
-        <p>for more information pls contact one of these:</p>
+        &copy; matthew murphy.
+       
         <p>CALL:087356734 </p> <p>email:jonjones@juju.com</p>
 
     </footer>
@@ -119,7 +142,11 @@
 </section>
 </div>
    
-   
-    
+<p><span id="demo1"></span></p>
+<script src="jordan.js">
+
+</script>
+
+
 </body>
 </html>
